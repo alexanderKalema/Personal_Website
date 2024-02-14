@@ -11,36 +11,34 @@
     },
     "projects": [
       {
-        "title": "r",
-        "startDate": "2020",
+        "title": "Selam",
+        "startDate": "2023",
         "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/Selam/login_page.png",
+          "images/Selam/creator_home_page.png",
+          "images/Selam/creator_page.png",
+          "images/Selam/search.png",
+          "images/Selam/shop_page.png",
+          "images/Selam/wallet_page.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
           }
         ]
       },
       {
-        "title": "Photography",
+        "title": "Mint",
         "startDate": "2018",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/Mint/Buy_request.png",
+          "images/Mint/Constraint.png",
+          "images/Mint/checkout_mobile.png"
         ],
         "url": "https://github.com",
         "technologies": [
