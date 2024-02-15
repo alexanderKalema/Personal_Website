@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Alex. Problem solving has been my passion, ever since I could remember. This for me took its form in writing code since joining university. My journey in the academic sphere has honed my skills in tackling complex challenges, and I look forward to expanding my horizons into business ventures and leadership roles in the future :). Lately, I have found myself invested in mobile application development, with a focus on leveraging the Flutter framework. I am always open to change and trying new things.",
+      "description": "👋 I'm Alex. Problem solving has been my passion, ever since I could remember. This for me took its form in writing code since joining university. My journey in the academic sphere has honed my skills in tackling complex challenges, and I look forward to expanding my horizons into business ventures and further leadership roles in the future :). Lately, I have found myself invested in mobile application development, with a focus on leveraging the Flutter framework. I am always open to change and trying new things.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -18,7 +18,7 @@
           "images/Selam/login_page.png",
           "images/Selam/creator_home_page.png",
           "images/Selam/creator_page.png",
-          "images/Selam/search.png",
+          "images/Selam/search_page.png",
           "images/Selam/shop_page.png",
           "images/Selam/wallet_page.png"
         ],
@@ -53,16 +53,9 @@
         "url": "https://ethrons.com/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
           }
         ],
         "caseStudy": [
@@ -90,16 +83,9 @@
         "url": "https://github.com/alexanderKalema/Nibret-Kifel-App",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "React Native",
+            "class": "devicon-react-original",
+            "level": "75"
           }
         ],
         "caseStudy": [
@@ -122,16 +108,9 @@
         "url": "https://github.com/alexanderKalema/Notes-App",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
           }
         ],
         "caseStudy": [
@@ -165,8 +144,14 @@
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
+          },
+          {
+            "name": "PHP",
+            "class": "devicon-php-plain",
+            "level": "65"
           }
         ],
         "caseStudy": [
@@ -179,7 +164,7 @@
       {
         "title": "Gym Management",
         "startDate": "2022",
-        "description": "A Collaborative team work class project",
+        "description": "A Collaborative team work class project for Object Oriented Programming course using Java.",
         "images": [
           "images/Gym_Application/admin_Login.png",
           "images/Gym_Application/dashboard.png",
@@ -193,13 +178,11 @@
         ],
         "url": "https://github.com/alexanderKalema/Gym_managment",
         "technologies": [
+
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "Java",
+            "class": "devicon-java-plain",
+            "level": "85"
           }
         ],
         "caseStudy": [
@@ -209,36 +192,57 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "Dinobit Company",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [          "Angular 8/9/10"
+        "years": "10.2021 - 12.2021",
+        "mainTech": [          "Flutter 8/9/10"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Dart",
+          "Firebase"
         ]
       },
       {
-        "company": "Serros Solutions",
+        "company": "Internsavvy",
         "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "years": "10.2021 - 12.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Flutter 8/9/10"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Dart",
+          "Sqflite"
+        ]
+      },
+      {
+        "company": "Aquila ICT Solution",
+        "title": "Lead Mobile Developer",
+        "years": "2.2023 - 6.2023",
+        "mainTech": [
+          "Flutter 8/9/10"
+        ],
+        "technologies": [
+          "Dart",
+          "REST API",
+          "Sqflite"
+        ]
+      },
+      {
+        "company": "Ministry of Innovation and Technology of Ethiopia",
+        "title": "Lead Developer",
+        "years": "6.2023 - 12.2023",
+        "mainTech": [
+          "Flutter 8/9/10"
+        ],
+        "technologies": [
+          "Dart",
+          "REST API",
+          "My SQL",
+          "Laravel",
+          "React",
+          "Electron"
+
         ]
       }
     ]
