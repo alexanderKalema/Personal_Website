@@ -5,13 +5,14 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import {FaArrowLeft, FaArrowRight} from "react-icons/fa";
 
 class ProjectDetailsModal extends Component {
     constructor(props) {
         super(props);
         this.state = {
             showCaseStudyModal: false,
-            currentPage: 0,
+            currentPage:  0,
         };
     }
 
@@ -27,16 +28,16 @@ class ProjectDetailsModal extends Component {
         const AutoplaySlider = withAutoplay(AwesomeSlider);
 
         const tech = technologies?.map((icon, i) => (
-            <li className="list-inline-item mx-3" key={i}>
-        <span>
-          <div className="text-center">
-            <i className={icon.class} style={{ fontSize: "300%" }}>
-              <p className="text-center" style={{ fontSize: "30%" }}>
-                {icon.name}
-              </p>
-            </i>
-          </div>
-        </span>
+            <li className="list-inline-item mx-3 mt-1" key={i}>
+                <span>
+                    <div className="text-center">
+                        <i className={icon.class} style={{ fontSize: "400%" }}>
+                            <p className="text-center" style={{ fontSize: "50%" }}>
+                                {icon.name}
+                            </p>
+                        </i>
+                    </div>
+                </span>
             </li>
         ));
 
@@ -50,24 +51,12 @@ class ProjectDetailsModal extends Component {
                     aria-labelledby="contained-modal-title-vcenter"
                     className="modal-inside custom-modal"
                 >
-          <span onClick={this.props.onHide} className="modal-close">
-            <i className="fas fa-times fa-2x close-icon"></i>
-          </span>
-                    <div className="row">
-                        <div className="col-md-8">
-                            <AutoplaySlider
-                                cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-                                animation="scaleOutAnimation"
-                                className="slider-image"
-                                play={true}
-                                cancelOnInteraction={true}
-                                interval={3000}
-                            >
-                                {img}
-                            </AutoplaySlider>
-                        </div>
-                        <div className="col-md-4 d-flex flex-column justify-content-center" style={{padding: "75px 75px 0 15px" }}>
-                            <h3 style={{ padding: "15px 15px 0 15px" }}>
+                    <span onClick={this.props.onHide} className="modal-close">
+                        <i className="fas fa-times fa-2x close-icon"></i>
+                    </span>
+                    <div className="d-flex px-5">
+                        <div className="d-flex flex-column justify-content-center w-25 mr-2">
+                            <h3 className="mb-5 text-xl-center" style={{fontSize:"2.1rem"}}>
                                 {title}
                                 {url && (
                                     <a
@@ -83,14 +72,27 @@ class ProjectDetailsModal extends Component {
                                     </a>
                                 )}
                             </h3>
-                            <p className="modal-description">{description}</p>
-                            <div className="text-center mt-auto" style={{marginBottom: "20px"}}>
-                                <Button onClick={this.toggleCaseStudyModal}>Case Study</Button>
-                            </div>
-                            <div className="col-md-12 text-center">
-                                <ul className="list-inline mx-auto">{tech}</ul>
-                            </div>
-
+                            <p className="mb-4" style={{fontSize:"1.7rem"}}>{description}</p>
+                            <Button
+                                onClick={this.toggleCaseStudyModal}
+                                className="btn btn-primary mb-3"
+                                style={{fontSize:"1.5rem"}}
+                            >
+                                Case Study
+                            </Button>
+                            <ul className="list-inline mx-auto">{tech}</ul>
+                        </div>
+                        <div className="w-75 ml-3">
+                            <AutoplaySlider
+                                cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+                                animation="scaleOutAnimation"
+                                className="slider-image"
+                                play={true}
+                                cancelOnInteraction={true}
+                                interval={3000}
+                            >
+                                {img}
+                            </AutoplaySlider>
                         </div>
                     </div>
                 </Modal>
@@ -99,26 +101,30 @@ class ProjectDetailsModal extends Component {
                     onHide={this.toggleCaseStudyModal}
                     size="lg"
                     centered
+                    style={{ fontFamily: 'Arial, sans-serif', color: '#333' }}
                 >
-                    <Modal.Header closeButton>
-                        <Modal.Title>Case Study</Modal.Title>
+                    <Modal.Header closeButton style={{ borderBottom: '1px solid #ddd' }}>
+                        <Modal.Title style={{ fontSize: '20px', fontWeight: 'bold' }}>Case Study</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>{this.renderCaseStudyPages()}</Modal.Body>
-                    <Modal.Footer>
+                    <Modal.Body style={{ padding: '20px', lineHeight: '1.6' }}>{this.renderCaseStudyPages()}</Modal.Body>
+                    <Modal.Footer style={{ borderTop: '1px solid #ddd', justifyContent: 'center' }}>
                         <Button
                             variant="secondary"
                             onClick={() => this.handlePageChange(-1)}
+                            style={{ backgroundColor: '#6c757d', borderColor: '#6c757d', color: '#fff', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
                         >
-                            Previous
+                            <FaArrowLeft style={{ color: '#fff' }} />
                         </Button>
                         <Button
                             variant="secondary"
                             onClick={() => this.handlePageChange(1)}
+                            style={{ backgroundColor: '#6c757d', borderColor: '#6c757d', color: '#fff', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', marginLeft: '10px' }}
                         >
-                            Next
+                            <FaArrowRight style={{ color: '#fff' }} />
                         </Button>
                     </Modal.Footer>
                 </Modal>
+
             </>
         );
     }
@@ -130,7 +136,7 @@ class ProjectDetailsModal extends Component {
 
         if (!caseStudy) return null;
 
-        const paragraphsPerPage = 1;
+        const paragraphsPerPage =  1;
         const start = currentPage * paragraphsPerPage;
         const end = start + paragraphsPerPage;
 
@@ -143,7 +149,7 @@ class ProjectDetailsModal extends Component {
                         fontFamily: "'Open Sans', sans-serif",
                         fontSize: "18px",
                         lineHeight: "1.6",
-                        margin: "20px 0",
+                        margin: "20px  0",
                         color: "#333",
                     }}
                 >
@@ -151,7 +157,6 @@ class ProjectDetailsModal extends Component {
                 </p>
             ));
     };
-
     toggleCaseStudyModal = () => {
         this.setState((prevState) => ({
             showCaseStudyModal: !prevState.showCaseStudyModal,

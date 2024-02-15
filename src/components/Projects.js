@@ -42,7 +42,7 @@ class Projects extends Component {
                                 position: "relative",
                                 borderRadius: "8px",
                                 maxWidth: "100%",
-                                maxHeight: "500px", // Set a maximum height
+                                maxHeight: "500px",
                                 height: "auto",
                             }}
                         />
