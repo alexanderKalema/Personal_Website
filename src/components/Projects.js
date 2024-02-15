@@ -31,7 +31,8 @@ class Projects extends Component {
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
-                    height="230"
+                    height="auto"
+                    width="auto"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
                   <span className="project-date">{projects.startDate}</span>
@@ -54,7 +55,7 @@ class Projects extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto"  style={{ overflowX: "auto", whiteSpace: "nowrap",scrollBehavior: "smooth"}}>{projects}</div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}

@@ -89,13 +89,21 @@ header h1 {
 	width: 100%;
 }
 
-.slider-image {
-	border: 5px solid #D7CAAA;
+
+.slider-image img {
+	object-fit: contain; /* Or consider object-fit: contain depending on desired behavior */
+	width: 100%;
+	height: 200%;
 }
 
+.custom-modal .modal-content {
+	width: 180%; /* Adjust width as needed */
+	height: 200%;
+}
 .slider-tab {
 	background-color: #D7CAAA;
-	height: 25px;
+	height: 250px;
+	width: 200px;
 }
 
 .slider-iconfiy {
@@ -265,7 +273,16 @@ header h1 {
 
 .modal-inside .modal-content {
 	background: white;
+	height: 700px;
+	width: 1400px;
+	padding-right: 0;
+		margin: 0; /* Remove default margin */
+		transform: translateX(-10%); /* Ensure modal starts from the left */
 }
+.modal-inside .modal-content .modal-dialog {
+	margin-left:  0;
+}
+
 
 .bars {
 	width: 95%;

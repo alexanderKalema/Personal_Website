@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm . Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Alex. Problem solving has been my passion, ever since I could remember. This for me took its form in writing code since joining university. My journey in the academic sphere has honed my skills in tackling complex challenges, and I look forward to expanding my horizons into business ventures and leadership roles in the future :). Lately, I have found myself invested in mobile application development, with a focus on leveraging the Flutter framework. I am always open to change and trying new things.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -22,25 +22,40 @@
           "images/Selam/shop_page.png",
           "images/Selam/wallet_page.png"
         ],
-        "url": "",
+        "url": "https://play.google.com/store/apps/details?id=com.btnet.selamet&hl=am",
         "technologies": [
           {
             "name": "Flutter",
             "class": "devicon-flutter-plain",
             "level": "75"
           }
+        ],
+        "caseStudy": [
+          "Selam.et is a well-known digital platform in Ethiopia for content creators to connect with their audience and gain support for their creative endeavors. Its a community-driven platform providing creators with the opportunity to showcase their work and receive financial backing from their supporters.",
+          "I built the mobile application from scratch (provided a Figma design) and orchestrated all the integration with essential state management. Designed to serve a substantial user base, ranging from approximately 5,000 to 10,000 individuals, the complexity and scale of the app presented significant development challenges. As the sole mobile developer, I was responsible for ensuring the robustness and usability of the application across its extensive feature set. I developed Selam using only the flutter framework. Worked with a backend for nearly a 3 month period.",
+          "The application offers robust authentication together with options for Google and Facebook sign-in,. The application also provides role-based views, to both content creators and users, with distinct functionalities for each.\n\nFor Creators to add stories, posts (including pictures and videos), and assign them a price tag. Users can explore a vast pool of content creators through the search feature, which includes filtering options for the most active, free, and more. Messaging functionality enables direct communication with subscribed content creators\n\nCreators can set subscription prices, view their subscribers, and manage subscriptions effectively. The app includes bookmark feature, allowing users to save posts for future reference. Subscribing to preferred creators is seamless, and users can add funds to their local account or wallet from Telebirr or the Commercial Bank of Ethiopia. It also integrates shop where users can add items and make purchases using funds from their local account.\n\nIt allows users to edit their personal information, including avatar and cover images. The dashboard feature provides statistical data for content creators through dashboard. Subscribed users can easily message and interact with the creators they follow.\n\nAdditional features include access to notifications, a help center for user support, and the ability to customize privacy settings according to individual preferences.",
+          "Access to the application can be found on the Google Play Store under the following link: Selam.et."
         ]
       },
       {
         "title": "Mint",
-        "startDate": "2018",
+        "startDate": "2023",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
-          "images/Mint/Buy_request.png",
-          "images/Mint/Constraint.png",
-          "images/Mint/checkout_mobile.png"
+          "images/Mint/buy_request.png",
+          "images/Mint/constraint.png",
+          "images/Mint/dashboard.png",
+          "images/Mint/menu.png",
+          "images/Mint/withdrawal.png",
+          "images/Mint/mint_flutter_desktop.png",
+          "images/Mint/order.png",
+          "images/Mint/home_mobile.png",
+          "images/Mint/menu_mobile.png",
+          "images/Mint/checkout_mobile.png",
+          "images/Mint/order_history_mobile.png",
+          "images/Mint/transaction_history_mobile.png"
         ],
-        "url": "https://github.com",
+        "url": "https://drive.google.com/drive/folders/1TlUqYGSLew8KCz2rIaKVUkfQ6gmAAqLb?usp=sharing",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -50,17 +65,29 @@
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           }
+        ],
+        "caseStudy": [
+          "We have developed a mobile app for employees and a desktop app for those who do not have access to smartphones. This allows employees to conveniently order food using the desktop computers provided by the ministry. To understand the functionality and operation of the app, please refer to the training manuals prepared by our team, which can be accessed in the Google Drive link above",
+          "The desktop application is specifically designed for super users, including the admin, cafe committee, storekeeper, and cafe manager. Each user has their own differing view of the system and sets of access privileges, enabling them to manage various activities such as payment transactions (deposit, withdrawal, refund), generate detailed reports and statistics on the dashboard, oversee inventory and order management, and handle employee management, among other functionalities. The functionality of this system is quite vast, I recommend checking the user manuals in the drive link above for getting an understanding of the extensive functionalities offered by the system.",
+          "As a non-functional requirement, the primary language used in the system is Amharic. This decision was made based on the fact that the admin, cafe committee, cafe manager, and storekeeper, who form a smaller user group, are most (only) comfortable with Amharic. Therefore, their version of the system is exclusively in Amharic. However, considering the larger number of employees with diverse language preferences, the employee version of the system is designed to accommodate five different languages, ensuring inclusivity and ease of use.",
+          "The mobile and desktop app for the employees was developed using flutter. The backend framework was Laravel and the desktop application for the super users was made using React/ Electron."
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
+        "title": "Ethrons",
+        "startDate": "2023",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/Ethrons/login_page.png",
+          "images/Ethrons/home_podcast_page.png",
+          "images/Ethrons/home_audio_page.png",
+          "images/Ethrons/home_ebook_page.png",
+          "images/Ethrons/search_page.png",
+          "images/Ethrons/reader_page.png",
+          "images/Ethrons/authors_page.png",
+          "images/Ethrons/about_author_page.png"
         ],
-        "url": "https://github.com",
+        "url": "https://ethrons.com/",
         "technologies": [
           {
             "class": "devicon-angularjs-plain",
@@ -74,6 +101,12 @@
             "class": "devicon-csharp-plain",
             "name": "C#"
           }
+        ],
+        "caseStudy": [
+          "Ethrons is an electronic publishing company that collaborates closely with authors, publishers, and bookstores to change the reading and listening experience for Ethiopians in the digital age . ",
+          "As a mobile developer at Aquila ICT Solution, I was in charge of developing Ethrons application. Although it entailed fewer functional requirements as compared to Selam, soley creating this application from scratch posed its own set of challenges. However, I am proud to announce that I successfully accomplished this task. The application is almost done and very soon to be deployed for the mass user. I developed Ethrons using the flutter framework.",
+          "Application features include - Complete Authentication,  Ability to directly get works from authors and publishers. Ability to view details of the podcasts, publications , audiobooks, and ebooks listed in different catagory. Ability to add books and audios to library where they have access to music players and Book readers. Profile and setting management. It also has an admin side developed by another developer using react.",
+          "To provide you with a glimpse of what Ethrons looks like, I have included some images here. Additionally, the Ethrons website is currently undergoing development and can be accessed Here"
         ]
       }
     ],
