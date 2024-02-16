@@ -153,10 +153,16 @@ class ProjectDetailsModal extends Component {
                         color: "#333",
                     }}
                 >
-                    {paragraph}
+                    {paragraph.split('\n').map((line, lineIndex) => (
+                        <React.Fragment key={lineIndex}>
+                            {line}
+                            <br />
+                        </React.Fragment>
+                    ))}
                 </p>
             ));
     };
+
     toggleCaseStudyModal = () => {
         this.setState((prevState) => ({
             showCaseStudyModal: !prevState.showCaseStudyModal,

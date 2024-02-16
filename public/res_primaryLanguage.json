@@ -31,9 +31,52 @@
           }
         ],
         "caseStudy": [
-           "I built the mobile application from scratch (provided a Figma design) and orchestrated all the integration with essential state management. Designed to serve a substantial user base, ranging from approximately 5,000 to 10,000 individuals, the complexity and scale of the app presented significant development challenges. As the sole mobile developer, I was responsible for ensuring the robustness and usability of the application across its extensive feature set. I developed Selam using only the flutter framework. Worked with a backend for nearly a 3 month period.",
-          "The application offers robust authentication together with options for Google and Facebook sign-in,. The application also provides role-based views, to both content creators and users, with distinct functionalities for each.\n\nFor Creators to add stories, posts (including pictures and videos), and assign them a price tag. Users can explore a vast pool of content creators through the search feature, which includes filtering options for the most active, free, and more. Messaging functionality enables direct communication with subscribed content creators\n\nCreators can set subscription prices, view their subscribers, and manage subscriptions effectively. The app includes bookmark feature, allowing users to save posts for future reference. Subscribing to preferred creators is seamless, and users can add funds to their local account or wallet from Telebirr or the Commercial Bank of Ethiopia. It also integrates shop where users can add items and make purchases using funds from their local account.\n\nIt allows users to edit their personal information, including avatar and cover images. The dashboard feature provides statistical data for content creators through dashboard. Subscribed users can easily message and interact with the creators they follow.\n\nAdditional features include access to notifications, a help center for user support, and the ability to customize privacy settings according to individual preferences.",
-          "Access to the application can be found on the Google Play Store under the above link."
+
+           "I built selam mobile application from scratch (given a Figma design) and orchestrated all the integration with essential state management. Designed to serve a substantial user base, ranging from approximately 5,000 to 10,000 individuals, the complexity and scale of the app presented significant development challenge. \n\n As the sole mobile developer, I was responsible for ensuring the robustness and usability of the application across its extensive feature set. I developed Selam using only the flutter framework. Worked with a backend developer for nearly a 3 month period.",
+          "The application offers robust authentication together with options for Google and Facebook sign-in. The application also provides role-based views, to both content creators and users, with distinct functionalities for each. Creators can add stories, posts (including pictures and videos), and assign them a price tag. Users can explore a vast pool of content creators through the search feature, which includes filtering options for the most active, free, and more.\n\nCreators can set subscription prices, view their subscribers, and manage subscriptions effectively. The app includes bookmark features, subscription to preferred creators. Users can add funds to their local account or wallet from Telebirr or the Commercial Bank of Ethiopia. The app also integrates shop where users can add items and make purchases using funds from their local account.\n\nIt allows users to edit their personal information, including avatar and cover images. The dashboard feature provides statistical data for content creators serving as a report mechanism. Subscribed users can easily message and interact with the creators they follow.\n\nAdditional features include access to notifications, a help center for user support, send tip to creators and the ability to customize privacy settings according to individual preferences and more.",
+          "Access to the application can be found on the Google Play Store accessible from the above link icon."
+        ]
+      },
+      {
+        "title": "Mint",
+        "startDate": "2023",
+        "description": "A cafe system developed for the Ministry of Innovation and Technology of Ethiopia (Mint)",
+        "images": [
+          "images/Mint/buy_request.png",
+          "images/Mint/home_mobile.png",
+          "images/Mint/constraint.png",
+          "images/Mint/dashboard.png",
+          "images/Mint/menu.png",
+          "images/Mint/withdrawal.png",
+          "images/Mint/mint_flutter_desktop.png",
+          "images/Mint/order.png",
+          "images/Mint/menu_mobile.png",
+          "images/Mint/checkout_mobile.png",
+          "images/Mint/order_history_mobile.png",
+          "images/Mint/transaction_history_mobile.png"
+        ],
+        "url": "https://drive.google.com/drive/folders/1TlUqYGSLew8KCz2rIaKVUkfQ6gmAAqLb?usp=sharing",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain",
+            "level": "75"
+          },
+          {
+            "name": "PHP",
+            "class": "devicon-php-plain",
+            "level": "65"
+          }
+        ],
+        "caseStudy": [
+          "Together with 4 students, we have developed this huge system. It includes a mobile app for employees and a desktop app for those who do not have access to smartphones. This allows employees to conveniently order food using the desktop computers provided by the ministry. ",
+          "On the other hand he desktop application is specifically designed for super users- the cashier, the admin, cafe committee, storekeeper, and cafe manager. Each user has their own differing view of the system and sets of access privileges, enabling them to manage various activities such as payment transactions (deposit, withdrawal, refund), generate detailed reports and statistics on the dashboard, oversee inventory and order management, and handle employee management, among other functionalities.",
+          "As a non-functional requirement, the primary language used in the system is Amharic. This decision was made based on the fact that the admin, cafe committee, cafe manager, and storekeeper, who form a smaller user group, are most (only) comfortable with Amharic. Therefore, their version of the system is exclusively in Amharic. However, considering the larger number of employees with diverse language preferences, the employee version of the system is designed to accommodate five different languages, ensuring inclusivity and ease of use.",
+          "The mobile and desktop app for the employees was developed using flutter. The backend framework was Laravel and the desktop application for the super users was made using React/ Electron. The functionality of this system is quite vast, I recommend referring to the training manuals prepared by the team, which can be accessed in the Google Drive link above for getting an understanding of the extensive functionalities offered by the system."
         ]
       },
       {
@@ -42,11 +85,11 @@
         "description": " Ethrons is an electronic publishing company that collaborates closely with authors, publishers, and bookstores to change the reading and listening experience for Ethiopians in the digital age.",
         "images": [
           "images/Ethrons/login_page.png",
-          "images/Ethrons/home_podcast_page.png",
           "images/Ethrons/home_audio_page.png",
           "images/Ethrons/home_ebook_page.png",
-          "images/Ethrons/search_page.png",
           "images/Ethrons/reader_page.png",
+          "images/Ethrons/home_podcast_page.png",
+          "images/Ethrons/search_page.png",
           "images/Ethrons/authors_page.png",
           "images/Ethrons/about_author_page.png"
         ],
@@ -59,9 +102,9 @@
           }
         ],
         "caseStudy": [
-          "As a mobile developer at Aquila ICT Solution, I was in charge of developing Ethrons application. Although it entailed fewer functional requirements as compared to Selam, soley creating this application from scratch posed its own set of challenges. However, I am proud to announce that I successfully accomplished this task. The application is almost done and very soon to be deployed for the mass user. I developed Ethrons using the flutter framework.",
+          "As a mobile developer at Aquila ICT Solution, I was in charge of developing Ethrons application. Although it entailed fewer functional requirements as compared to Selam, soley creating this application from scratch posed its own set of challenges. The application is almost done and very soon to be deployed for the mass user. I developed Ethrons using the flutter framework.",
           "Application features include - Complete Authentication,  Ability to directly get works from authors and publishers. Ability to view details of the podcasts, publications , audiobooks, and ebooks listed in different catagory. Ability to add books and audios to library where they have access to music players and Book readers. Profile and setting management. It also has an admin side developed by another developer using react.",
-          "To provide you with a glimpse of what Ethrons looks like, I have included some images here. Additionally, the Ethrons website is currently undergoing development and can be accessed Here"
+          "To provide you with a glimpse of what Ethrons looks like, I have included some images here. Additionally, the Ethrons website is currently undergoing development and can be accessed from the above link icon"
         ]
       },
       {
@@ -89,8 +132,9 @@
           }
         ],
         "caseStudy": [
-          "It simplified the process of submitting detailed requests for property needs, approving these requests, and monitoring the status of properties upon return. The application also incorporates features to review submitted, approved, and completed requests with their respective details, thereby simplifying the tracking of property history.",
-        "Previously, the church relied on a paper-based system, which proved difficult to maintain and resulted in property losses and a lack of transparency and accountability. This digital solution offered a more reliable means of record-keeping, fostering greater accountability and reducing the likelihood of misplaced or damaged church assets. I developed “Nibret Kifel (ንብረት ከፍል) App” using react native."
+          "This app simplified the process of submitting detailed requests for property needs, approving these requests, and monitoring the status of properties upon return. The application also incorporates features to review submitted, approved, and completed requests with their respective details, thereby simplifying the tracking of property history.",
+        "Previously, the church relied on a paper-based system, which proved difficult to maintain and resulted in property losses and a lack of transparency and accountability. This digital solution offered a more reliable means of record-keeping, fostering greater accountability and reducing the likelihood of misplaced or damaged church assets. I developed “Nibret Kifel (ንብረት ከፍል) App” using react native.",
+        "The language used for the application is Amharic. The image translations was performed using Google Lens, and while I can verify that some translations are inaccurate, they are actually coherent in the Amharic language that the application is currently being used, particularly accurate in my church's context. "
         ]
       },
       {
@@ -113,53 +157,11 @@
           }
         ],
         "caseStudy": [
-           "This Notes App (my first flutter application) offers a set of features like complete authentication including option for Google Sign-In.  It also has secure cloud-based database, powered by Firebase. This ensures that users' notes are safeguarded even if the app is deleted from their device. The app also provides functionalities to search for specific notes, customize/Edit them, remove unwanted entries, and effortlessly share notes with others. Users also have the freedom to customize the app's theme and language settings according to their preferences, ensuring a personalized and enjoyable experience.",
-          "With a strong focus on user convenience and data security, the Notes App aims to deliver a seamless and reliable note-taking experience. Although the development process may have involved some code quality challenges, I am dedicated to rectifying these issues and fine-tuning the app for a successful deployment in the near future. Stay tuned for updates as I continue to enhance and refine this mobile application.",
+           "This Notes App (my first flutter application) offers a set of features like complete authentication including option for Google Sign-In.  It also has secure cloud-based database, powered by Firebase. This ensures that users' notes are safeguarded even if the app is deleted from their device. The app also provides functionalities to search for specific notes, customize/edit them, remove unwanted entries, and effortlessly share notes with others. Users also have the freedom to customize the app's theme and language settings according to their preferences, ensuring a personalized and enjoyable experience.",
           "This project served as a significant learning experience for me, where I prioritized gaining knowledge and skills in mobile development (Huge thanks to YouTube instructor Vandad). While acknowledging its flaws in terms of code cleanliness, I plan to restructure the app, address existing bugs, and prepare it for deployment in the near future."
         ]
       },
-      {
-        "title": "Mint",
-        "startDate": "2023",
-        "description": "A cafe system developed for the Ministry of Innovation and Technology of Ethiopia (Mint)",
-        "images": [
-          "images/Mint/buy_request.png",
-          "images/Mint/constraint.png",
-          "images/Mint/dashboard.png",
-          "images/Mint/menu.png",
-          "images/Mint/withdrawal.png",
-          "images/Mint/mint_flutter_desktop.png",
-          "images/Mint/order.png",
-          "images/Mint/home_mobile.png",
-          "images/Mint/menu_mobile.png",
-          "images/Mint/checkout_mobile.png",
-          "images/Mint/order_history_mobile.png",
-          "images/Mint/transaction_history_mobile.png"
-        ],
-        "url": "https://drive.google.com/drive/folders/1TlUqYGSLew8KCz2rIaKVUkfQ6gmAAqLb?usp=sharing",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "name": "Flutter",
-            "class": "devicon-flutter-plain",
-            "level": "75"
-          },
-          {
-            "name": "PHP",
-            "class": "devicon-php-plain",
-            "level": "65"
-          }
-        ],
-        "caseStudy": [
-          "We have developed a mobile app for employees and a desktop app for those who do not have access to smartphones. This allows employees to conveniently order food using the desktop computers provided by the ministry. To understand the functionality and operation of the app, please refer to the training manuals prepared by our team, which can be accessed in the Google Drive link above",
-          "The desktop application is specifically designed for super users, including the admin, cafe committee, storekeeper, and cafe manager. Each user has their own differing view of the system and sets of access privileges, enabling them to manage various activities such as payment transactions (deposit, withdrawal, refund), generate detailed reports and statistics on the dashboard, oversee inventory and order management, and handle employee management, among other functionalities. The functionality of this system is quite vast, I recommend checking the user manuals in the drive link above for getting an understanding of the extensive functionalities offered by the system.",
-          "As a non-functional requirement, the primary language used in the system is Amharic. This decision was made based on the fact that the admin, cafe committee, cafe manager, and storekeeper, who form a smaller user group, are most (only) comfortable with Amharic. Therefore, their version of the system is exclusively in Amharic. However, considering the larger number of employees with diverse language preferences, the employee version of the system is designed to accommodate five different languages, ensuring inclusivity and ease of use.",
-          "The mobile and desktop app for the employees was developed using flutter. The backend framework was Laravel and the desktop application for the super users was made using React/ Electron."
-        ]
-      },
+
       {
         "title": "Gym Management",
         "startDate": "2022",
@@ -185,7 +187,7 @@
           }
         ],
         "caseStudy": [
-        ""
+        "Key entities modeled included Users (Admin, Employee, Client), Departments, Programs, Branch. Relations between these entities and their attributes/behaviors were defined. I primarily worked on modules related to Client management - implementing classes for client, branches, program and methods to enroll clients , view/edit client data, associate clients to programs etc. The final application met core requirements for managing a gym's operations and client programs. It served as a good starting experience in my academics."
           ]
       }
     ],
