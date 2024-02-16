@@ -101,17 +101,18 @@ class App extends Component {
             ></span>
           </div>
           <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
+            onClick={() =>{
+              // this.applyPickedLanguage(
+              //   window.$secondaryLanguage,
+              //   window.$primaryLanguageIconId
+              // )
+               }
             }
             style={{ display: "inline" }}
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-ethiopia"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
