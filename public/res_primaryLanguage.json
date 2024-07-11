@@ -79,6 +79,58 @@
           "The mobile and desktop app for the employees was developed using flutter. The backend framework was Laravel and the desktop application for the super users was made using React/ Electron. The functionality of this system is quite vast, I recommend referring to the training manuals prepared by the team, which can be accessed in the Google Drive link above for getting an understanding of the extensive functionalities offered by the system."
         ]
       },
+
+
+
+      {
+        "title": "GOJO",
+        "startDate": "2024",
+        "description": "An online platform that connects homeowners with property seekers for unique accommodations in Ethiopia. It provides an easy-to-use system for listing, managing, and booking spaces for rent or purchase.",
+        "images": [
+          "images/Gojo/pending_properties.png",
+          "images/Gojo/property_detail.png",
+          "images/Gojo/property_location.png",
+          "images/Gojo/home.png",
+          "images/Gojo/search.png",
+          "images/Gojo/billing.png",
+          "images/Gojo/admin_chat.png",
+          "images/Gojo/add_property.png",
+          "images/Gojo/setting.png",
+          "images/Gojo/gojo_account.png",
+          "images/Gojo/notification.png",
+          "images/Gojo/insomnia_workspace.png"
+        ],
+        "url": "https://drive.google.com/drive/folders/12VZHlGMvRYRXqqH_7EhDSb7om7OudQAl",
+        "technologies": [
+          {
+            "class": "devicon-dotnetcore-plain colored",
+            "name": ".NET"
+          },
+          {
+            "name": "Flutter",
+            "class": "devicon-flutter-plain colored"
+          },
+          {
+            "name": "Angular",
+            "class": "devicon-angularjs-plain colored"
+          },
+          {
+            "name": "Next.js",
+            "class": "devicon-nextjs-plain colored"
+          }
+        ],
+        "caseStudy": [
+          "GOJO is an online platform developed by a team of 4 students (soon to be launched in the Ethiopian Market). It includes a mobile app and a web application that allows homeowners to list their properties for rent or purchase, and property seekers to search and book accommodations.",
+          "The platform offers various features for homeowners, such as listing their properties as shared rooms, private rooms, or entire places. They can specify amenities, capacity limits, and other attributes to match guests' needs. Homeowners can also access detailed profiles of prospective renters or buyers, including reviews from past hosts, to build trust and ensure a good cultural fit.",
+          "GOJO aims to cater to the diverse language preferences in Ethiopia by offering multi-language support. The platform will initially support major Ethiopian languages, such as Amharic, as well as English, with the capability to easily add more languages in the future.",
+          "The mobile app is developed using Flutter, while the web application utilizes Angular and the admin side is setup using Next.js. The backend is built with .NET, following a microservices architecture to ensure scalability and high performance under load. (Proved to be a real challenge in the development process)"
+        ]
+      },
+
+
+
+
+
       {
         "title": "Ethrons",
         "startDate": "2023",
